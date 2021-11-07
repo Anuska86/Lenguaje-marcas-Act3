@@ -7,26 +7,32 @@
         <html>
             <head>
                 <style>
+*{
+    border:0px;
+    padding:0px;
+}
 
 img{width:190px;
 height:150px};
 
-table { 
-    border-collapse: separate;
-    border-spacing: 0;
+table {border:1px solid black;
+    padding:0px;
+    border-spacing:0;
 }
 
 td {
-    border-bottom:1px solid;
-    border-right:1px solid;
+    border-bottom:0px;
+    border-right:0px;
+    padding:0px;
+    border:1px solid black;
 }
 
 tr > td:first-child {
-    border-left: 1px solid;
+    border-left: 0px;
 }
 
 table tr:first-child td {
-    border-top: 1px solid;
+    border-top: 0px;
 }
 
                 </style>
