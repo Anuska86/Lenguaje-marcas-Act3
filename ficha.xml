@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ficha.xsl"?>
+
+<pokemons>
+
+    <pokemon id="PK-0001">
+        <nombre>Vaporeon</nombre>
+        <codigo>PK-0001</codigo>
+        <foto>
+            <a href="img/agua_vaporeon.png">img/agua_vaporeon.png</a>
+        </foto>
+        <color>Azul</color>
+        <tipo>Agua</tipo>
+        <fuerza>4</fuerza>
+        <comentario>Vaporeon es la evolución de Evee. Es un pokemon de agua cuyas 
+        debilidades son la electricidad y las plantas.</comentario>
+    </pokemon>
+
+    <pokemon id="PK-0002">
+        <nombre>Blastoise</nombre>
+        <codigo>PK-0002</codigo>
+        <foto>
+            <a href="img/agua_blastoise.png">img/agua_blastoise.png</a>
+        </foto>
+        <color>Azul</color>
+        <tipo>Agua</tipo>
+        <fuerza>5</fuerza>
+        <comentario>A veces es muy tímido y se esconde dentro de su caparazón, pero cuando se enfada puede intentar
+        aplastarte con su peso</comentario>
+    </pokemon>
+
+    <pokemon id="PK-0003">
+        <nombre>Charizard</nombre>
+        <codigo>PK-0003</codigo>
+        <foto>
+            <a href="img/fuego_charizard.jpg">img/fuego_charizard.jpg</a>
+        </foto>
+        <color>Rojo</color>
+        <tipo>Fuego</tipo>
+        <fuerza>5</fuerza>
+        <comentario>Charizard es un pokemon de fuego que además vuela. Su debilidad 
+        es el agua y a veces causa incendios sin querer. </comentario>
+    </pokemon>
+
+    <pokemon id="PK-0004">
+        <nombre>Ninetales</nombre>
+        <codigo>PK-0004</codigo>
+        <foto>
+            <a href="img/fuego_ninetales.jpg">img/fuego_ninetales.jpg</a>
+        </foto>
+        <color>Amarillo</color>
+        <tipo>Fuego</tipo>
+        <fuerza>5</fuerza>
+        <comentario>Aunque no es muy grande, puede vivir hasta los mil años. Su habilidad es absorber el fuego. </comentario>
+    </pokemon>
+
+    <pokemon id="PK-0005">
+        <nombre>Glastrier</nombre>
+        <codigo>PK-0005</codigo>
+        <foto>
+            <a href="img/hielo_glastrier.jpg">img/hielo_glastrier.jpg</a>
+        </foto>
+        <color>Blanco</color>
+        <tipo>Hielo</tipo>
+        <fuerza>9</fuerza>
+        <comentario>Glastrier es un pokemon de hielo con fama de ser extremadamente
+        violento. Puede llegar a pesar mas de 800kg.</comentario>
+    </pokemon>
+    <pokemon id="PK-0006">
+        <nombre>Kyurem</nombre>
+        <codigo>PK-0006</codigo>
+        <foto>
+            <a href="img/hielo_kyurem.jpeg">img/hielo_kyurem.jpeg</a>
+        </foto>
+        <color>Gris</color>
+        <tipo>Hielo</tipo>
+        <fuerza>8</fuerza>
+        <comentario>Kyurem es un dragón de hielo sin evoluciones, que puede crear condiciones bajo cero, por lo que allí donde va 
+        se crean tormentas de hielo y ventistas. </comentario>
+    </pokemon>
+
+
+</pokemons>

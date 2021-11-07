@@ -39,7 +39,7 @@ table tr:first-child td {
             </head>
 
             <body>
-                <h2>My CD Collection</h2>
+             
                 <table>
                     <xsl:for-each select="pokemons/pokemon">
                         <xsl:sort select="tipo" order="ascending"/>
