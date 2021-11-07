@@ -1,0 +1,12 @@
+/*colores tabla*/
+th{background:red;}
+.amarillo{background:yellow;}
+.azul{background:blue;}
+.verde{background:green;}
+.amarillo img{width:50px;}
+
+/*clase para tamaño de fotos*/
+.images_size {
+    height: 100px;
+    width: 50%;
+}
