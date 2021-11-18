@@ -11,7 +11,7 @@
         </foto>
         <color>Azul</color>
         <tipo>Agua</tipo>
-        <fuerza>4</fuerza>
+        <fuerza>85</fuerza>
         <comentario>Vaporeon es la evolución de Evee. Es un pokemon de agua cuyas 
         debilidades son la electricidad y las plantas.</comentario>
     </pokemon>
@@ -24,7 +24,7 @@
         </foto>
         <color>Azul</color>
         <tipo>Agua</tipo>
-        <fuerza>5</fuerza>
+        <fuerza>54</fuerza>
         <comentario>A veces es muy tímido y se esconde dentro de su caparazón, pero cuando se enfada puede intentar
         aplastarte con su peso</comentario>
     </pokemon>
@@ -37,7 +37,7 @@
         </foto>
         <color>Rojo</color>
         <tipo>Fuego</tipo>
-        <fuerza>5</fuerza>
+        <fuerza>78</fuerza>
         <comentario>Charizard es un pokemon de fuego que además vuela. Su debilidad 
         es el agua y a veces causa incendios sin querer. </comentario>
     </pokemon>
@@ -50,7 +50,7 @@
         </foto>
         <color>Amarillo</color>
         <tipo>Fuego</tipo>
-        <fuerza>5</fuerza>
+        <fuerza>159</fuerza>
         <comentario>Aunque no es muy grande, puede vivir hasta los mil años. Su habilidad es absorber el fuego. </comentario>
     </pokemon>
 
@@ -62,7 +62,7 @@
         </foto>
         <color>Blanco</color>
         <tipo>Hielo</tipo>
-        <fuerza>9</fuerza>
+        <fuerza>102</fuerza>
         <comentario>Glastrier es un pokemon de hielo con fama de ser extremadamente
         violento. Puede llegar a pesar mas de 800kg.</comentario>
     </pokemon>
@@ -74,7 +74,7 @@
         </foto>
         <color>Gris</color>
         <tipo>Hielo</tipo>
-        <fuerza>8</fuerza>
+        <fuerza>199</fuerza>
         <comentario>Kyurem es un dragón de hielo sin evoluciones, que puede crear condiciones bajo cero, por lo que allí donde va 
         se crean tormentas de hielo y ventistas. </comentario>
     </pokemon>

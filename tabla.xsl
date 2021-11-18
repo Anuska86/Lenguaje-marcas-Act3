@@ -20,7 +20,7 @@ table {border:1px solid black;
     border-spacing:0;
 }
 
-td {
+td,th {
     border-bottom:0px;
     border-right:0px;
     padding:0px;
@@ -35,12 +35,26 @@ table tr:first-child td {
     border-top: 0px;
 }
 
+
+foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
                 </style>
             </head>
 
             <body>
-             
+
                 <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Foto</th>
+                    </tr>
                     <xsl:for-each select="pokemons/pokemon">
                         <xsl:sort select="tipo" order="ascending"/>
                         <xsl:if test="tipo='Hielo'">
