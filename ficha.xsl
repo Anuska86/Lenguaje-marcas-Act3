@@ -6,49 +6,13 @@
     <xsl:template match="/">
         <html>
             <head>
-                <style>
-img{
-    width:10rem;
-    height:10rem;
-    };
-
-.padre{ 
-    background-color:lightblue
-}
-
-div {
-    border-bottom:0px;
-    border-right:0px;
-    padding:0px;
-    border:1px solid black;
-}
-
-.info{
-        background-color:lightblue;      
-}
-.imagen{
-    background-color:green;
-}
-
-.comentario{
-    background-color:gray;
-}
-
-.col-container {
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-}
-
-.col {
-    display: table-cell; /* Make elements inside the container behave like table cells */
-}
-                </style>
+                <link rel="stylesheet" type="text/css" href="./css/ficha.css"/>
             </head>
 
             <body>
                 <xsl:for-each select="pokemons/pokemon">
                     <div class="col-container">
-                        <div class="col">
+                        <div class="foto clickfoto">
                             <xsl:element name="img">
                                 <xsl:attribute name="src">
                                     <xsl:value-of select="foto" />
@@ -56,16 +20,11 @@ div {
                             </xsl:element>
                         </div>
                             <div class="col">
-                                <p>
-                                    <xsl:value-of select="nombre"/>
-                                </p>
-                                <p>
-                                    <xsl:value-of select="tipo"/>
-                                </p>
-                                <p>
-                                    <xsl:value-of select="fuerza"/>
-                                </p>
-                                <p><xsl:value-of select="comentario"/></p>
+                                <h3><xsl:value-of select="nombre"/></h3>
+                                <p><b>Tipo: </b><xsl:value-of select="tipo"/></p>
+                                <p><b>Fuerza: </b><xsl:value-of select="fuerza"/></p>
+                                <p><b>Color: </b><xsl:value-of select="fuerza"/></p>
+                                <p><b>Comentario: </b><xsl:value-of select="comentario"/></p>
                             </div>
 
                     </div>

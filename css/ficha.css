@@ -1,0 +1,41 @@
+
+
+.foto {
+display:inline-block;
+width: 100px;
+padding-left: 40px;
+padding-top: 30px;
+
+}
+
+img {
+width: 150px;
+height: 150px;    
+}
+
+div {
+    border-bottom:0px;
+    border-right:0px;
+    padding:0px;
+
+}
+
+
+.col-container {
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.col {
+    display: inline-block; 
+    margin-left: 270px;
+    width: 280px;
+}
+
+.clickfoto img:active {
+                        transform: scale(1.3);
+                    }

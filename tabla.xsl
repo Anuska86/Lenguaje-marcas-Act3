@@ -6,45 +6,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <style>
-*{
-    border:0px;
-    padding:0px;
-}
-
-img{width:190px;
-height:150px};
-
-table {border:1px solid black;
-    padding:0px;
-    border-spacing:0;
-}
-
-td,th {
-    border-bottom:0px;
-    border-right:0px;
-    padding:0px;
-    border:1px solid black;
-}
-
-tr > td:first-child {
-    border-left: 0px;
-}
-
-table tr:first-child td {
-    border-top: 0px;
-}
-
-
-foto {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-
-                </style>
+                <link rel="stylesheet" type="text/css" href="./css/style.css"/>
             </head>
 
             <body>
@@ -65,7 +27,7 @@ foto {
                                 <td>
                                     <xsl:value-of select="tipo"/>
                                 </td>
-                                <td class="images_size">
+                                <td class="images_size clickfoto">
                                     <xsl:element name="img">
                                         <xsl:attribute name="src">
                                             <xsl:value-of select="foto" />
@@ -83,7 +45,7 @@ foto {
                                 <td>
                                     <xsl:value-of select="tipo"/>
                                 </td>
-                                <td class="images_size">
+                                <td class="images_size clickfoto">
                                     <xsl:element name="img">
                                         <xsl:attribute name="src">
                                             <xsl:value-of select="foto" />
@@ -101,7 +63,7 @@ foto {
                                 <td>
                                     <xsl:value-of select="tipo"/>
                                 </td>
-                                <td class="images_size">
+                                <td class="images_size clickfoto">
                                     <xsl:element name="img">
                                         <xsl:attribute name="src">
                                             <xsl:value-of select="foto" />
